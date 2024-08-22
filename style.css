@@ -18,3 +18,17 @@ h1 {
 h2 {
 	color: #212529
 }
+
+
+
+
+
+<!-- Pseudo Element on Donate Button in Footer -->
+
+button::after {
+	content: "
+
+
+
+
+}
