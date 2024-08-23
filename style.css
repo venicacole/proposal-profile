@@ -19,8 +19,23 @@ h2 {
 	color: #212529
 }
 
+<!-- Styling for Logo -->
+
+.logo-placeholder-image {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+<!-- Styling for Primary Pet Pic -->
+
+.primary-pet-placeholder-image {
+	width: 200px;
+	height: 200px;
 
 
+
+}
 
 
 <!-- Pseudo Element on Donate Button in Footer -->
