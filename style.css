@@ -4,10 +4,17 @@ body {
 	font-family: Arial, Verdana;
 	background-color: #FAF9F6;
 	color: #212529;
+	margin: 0;
+    	padding: 0;
 }
 
+header {
+    	background-color: #FB8500;
+	color: #1D3557
+    	padding: 20px;
+    	border-bottom: 2px solid #1D3557;
 
-h1 {
+p {
   	color: #1D3557;
   	margin-left: 20px;
 	padding: 50px 30px;
@@ -19,7 +26,7 @@ h2 {
 	color: #212529
 }
 
-<!-- Styling for Logo -->
+/* Styling for Logo */
 
 .logo-placeholder-image {
     width: 150px;
@@ -27,7 +34,7 @@ h2 {
     object-fit: contain;
 }
 
-<!-- Styling for Primary Pet Pic -->
+/* Styling for Primary Pet Pic */
 
 .primary-pet-placeholder-image {
 	width: 200px;
@@ -38,10 +45,12 @@ h2 {
 }
 
 
-<!-- Pseudo Element on Donate Button in Footer -->
+
+
+/* Pseudo Element on Donate Button in Footer */
 
 button::after {
-	content: "
+	content: " ";
 
 
 
