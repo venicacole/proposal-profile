@@ -12,45 +12,59 @@ header {
     background-color: #FB8500;
 	color: #1D3557;
     padding: 40px;
-	border : 5px solid #1D3557;
+	border-bottom: 2px solid #1D3557;
 	margin: 0px;
 	overflow: hidden;
 }
 
-.header-logo-placeholder-image {
+#header-logo {
 	height: auto;
 	float: left;
 	margin-right: 5px;
-	border: 5px solid #1D3557;
+	border: 1px solid #1D3557;
 }
 
 h1 {
 	position: relative;
 }
 
-button {
+#button1 {
 	float: right;
 	position: relative;
-	color: #1D3557;
+	background-color: #1D3557;
+	color: #FAF9F6 ;
+	border: 1D3557;
+	padding: 10px 27px;
+	text-align: center;
+	text-decoration: none;
 	margin-top: 150px;
+}
+
+#button2 {
+	float: right;
+	position: relative;
+	background-color: #1D3557;
+	color: #FAF9F6 ;
+	border: 1D3557;
+	padding: 10px 27px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 150px;
+
+
 }
 
 img {
 	float:inline-start;
+	margin-right: 5px;
 }
-p {
+
+.pet-story {
   	color: #1D3557;
   	margin-left: 20px;
-	padding: 50px 30px;
-	
+	font-size: 18px;
 }
 
-
-h2 {
-	
-	color: #212529;
-	
-}
 
 /* Styling for Logo */
 
@@ -62,40 +76,76 @@ h2 {
 
 /* Styling for Primary Pet Pic */
 
-.primary-pet-placeholder-image {
-	width: 400px;
-	height: 400px;
-	margin-left: 200px;
-
+.pet-image-container {
+	position:relative;
+	margin: 20px;
 }
 
+#pet-profile-header {
+	padding: 0;
+	color: #212529;
+	box-sizing: border-box;
 
-.heart-icon {
-	size: 5px;
+}
+#primary-pet-placeholder-image {
+	width: 400px;
+	height: auto;
+	margin-left: 5px;
+	border : 2px solid #1D3557;
+	display: block;
+}
+
+.button3 {
+	float:inherit;
+	position:sticky;
+	background-color: #1D3557;
+	opacity: 1;
+	color: #FAF9F6 ;
+	padding: 10px 125px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 0;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+#like-button {
+	position: absolute;
+	font-size: 50px;
+	margin-left: 20px;
 	color: red;
-	float: left;
+	cursor: pointer;
+}
+
+.container {
+	overflow: hidden;
+}
+
+#pet-name {
+	padding: 0;
+	color: #212529;
+	box-sizing: border-box;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: x-large;
 }
 
 ul.no-bullets {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-  }
+	font-size: 15px;
+	box-sizing: border-box;
+}
 
+li {
+    margin-bottom: 5px;
+	padding: 0;
+	line-height: 1.0em;
+	box-sizing: border-box;
+}
+  			/* Use of Pseudo Element */
 li::before {
 	content: "★ ";
 	color: #FFB703;
   }
-
-
-  
-
-/* Pseudo Element on Donate Button in Footer */
-
-button::after {
-	content: " ";
-
-
-
-
-}

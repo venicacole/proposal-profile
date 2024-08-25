@@ -17,11 +17,11 @@
 	<!-- This is my Header Section -->
 <header>
 	<div class="header-content">
-		<img src="https://placehold.co/200" alt="Paws Whiskers Rescue Logo" class="header-logo">
+		<img src="https://placehold.co/200" alt="Paws Whiskers Rescue Logo" id="header-logo">
 		<h1>Paws Whiskers Rescue Pet Adoption</h1>
-		<button aria-label="Site Menu">
+		<button aria-label="Site Menu" id="button1">
 			<i class="fa fa-bars"></i>
-		<button aria-label="Search">	
+		<button aria-label="Search" id="button2">	
 			<i class="fa fa-search"></i>
 
 		</button>
@@ -35,28 +35,29 @@
 
 <main>
  <section class="pet-profile"></section>
-  <h2>Playful male pup named Teagan up for adoption!</h2>
- <div>
-   		<img src="https://placehold.co/400" alt="Placeholder Image of Primary Pet" class="primary-pet-placeholder-image">
+  <h2 id="pet-profile-header">Playful male pup named Teagan up for adoption!</h2>
+ <div class="container">
+	<div class="pet-image-container"></div>
+   		<img src="https://placehold.co/400" alt="Placeholder Image of Primary Pet" id="primary-pet-placeholder-image">
    		<!-- Clickable Heart to Like/Save Pet -->
-   		<button class="heart-icon" alt="Like Pet">
-			<i class="fa fa-heart"></i>
-   		</button>
+	<div href="#" id="like-button" title="Like Button">
+	  <i class="fa fa-heart"></i>
  </div>
- <div class="pet-details">
-   <ul class="no-bullets">
-		<li><strong>ID:</strong> Pet's ID Number</li>
-   		<li><strong>Name:</strong> Pet's Name</li>
-   		<li><strong>Type:</strong> Type of Animal</li>
-   		<li><strong>Looks Like:</strong> Pet's Breed Makeup</li>
-   		<li><strong>Gender:</strong> Pet's Gender</li>
-   		<li><strong>Age:</strong> Pet's Estimated Age</li>
-   		<li><strong>Size:</strong> Pet's Size Category</li>
-   		<li><strong>Weight:</strong> Pet's Current Weight</li>
-   		<li><strong>Adoption Fee:</strong> Cost to Adopt Pet</li>
+ <div class="pet-details">	
+	<h2 id="pet-name">Teagan</h2>
+   		<ul class="no-bullets">
+			<li><strong>ID:</strong> 1234000</li>
+   			<li><strong>Type:</strong> Dog</li>
+   			<li><strong>Looks Like:</strong> Mixed Breed</li>
+   			<li><strong>Gender:</strong> Girl</li>
+   			<li><strong>Age:</strong> 3 months</li>
+   			<li><strong>Size:</strong> Small</li>
+   			<li><strong>Weight:</strong> Pet's Current Weight</li>
+   			<li><strong>Adoption Fee:</strong> $300</li>
    </ul>
-   <button aria-label="Adopt a Pet">Adopt</button>
- </div>
+   <button aria-label="Adopt a Pet" class="button3"><strong> Adopt Me!</strong></button>
+	<div style="clear: both;"></div>
+</div>
  <div class="more-images">
     <img src="https://placehold.co/125" alt="Image 1 of Pet" class="primary-placeholder-image">
     <img src="https://placehold.co/125" alt="Image 2 of Pet" class="primary-placeholder-image">
@@ -65,19 +66,18 @@
     <p><b>Hi, I'm Teagan!</b>I'm the perfect mix of playful and chill. Whether we're playing fetch or relaxing on the couch, I'm all in for a good time. I'll greet you with a wagging tail and eager eyes—petting is my favorite! I get along well with other dogs my size and even love watching TV. My favorite things? Snuggling and playing games. I'm ready to join a fun, loving family and make some great memories together!</p>
  </div>
  	
-<div>
-
+<div class="more-like-this">
+	<p>Slide Images: More Pets Like This One</p>
  	<div class="scroll-container"></div>
 	<div class="scroll-arrow"> < </div> <!-- Left arrow for scrolling left --> 
-	<p>Slide Images: More Pets Like This One</p>
 		
 	<!-- Placeholder for more pet images --> 
 		
-	<img src="https://placehold.co/100" alt="Similar Pet 1" class="more-placeholder-image"> 
-	<img src="https://placehold.co/100" alt="Similar Pet 2" class="more-placeholder-image"> 
-	<img src="https://placehold.co/100" alt="Similar Pet 3" class="more-placeholder-image">
-	<img src="https://placehold.co/100" alt="Similar Pet 4" class="more-placeholder-image">
-	<img src="https://placehold.co/100" alt="Similar Pet 5" class="more-placeholder-image">
+	<img src="https://placehold.co/75" alt="Similar Pet 1" class="more-placeholder-image"> 
+	<img src="https://placehold.co/75" alt="Similar Pet 2" class="more-placeholder-image"> 
+	<img src="https://placehold.co/75" alt="Similar Pet 3" class="more-placeholder-image">
+	<img src="https://placehold.co/75" alt="Similar Pet 4" class="more-placeholder-image">
+	<img src="https://placehold.co/75" alt="Similar Pet 5" class="more-placeholder-image">
 	<div class="scroll-arrow"> > </div> <!-- Right arrow for scrolling right --> 
 </div>
 
