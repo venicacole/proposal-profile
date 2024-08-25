@@ -9,10 +9,10 @@ body {
 }
 
 header {
-    background-color: #FB8500;
+    background-color: #f5d131;
 	color: #1D3557;
     padding: 40px;
-	border-bottom: 2px solid #1D3557;
+	border-bottom: 10px solid #1D3557;
 	margin: 0px;
 	overflow: hidden;
 }
@@ -62,7 +62,8 @@ img {
 .pet-story {
   	color: #1D3557;
   	margin-left: 20px;
-	font-size: 18px;
+	padding: 0;
+	font-size: 20px;
 }
 
 
@@ -149,3 +150,33 @@ li::before {
 	content: "★ ";
 	color: #FFB703;
   }
+
+ h3 {
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #1D3557;
+	line-height: 0.1em;
+	margin: 10px 0 20px;
+ }
+
+ h3 span{
+	background: #FAF9F6;
+	padding: 0 20px;
+ }
+
+
+
+
+.button4 {
+	float:inherit;
+	position:sticky;
+	background-color: #1D3557;
+	opacity: 1;
+	color: #FAF9F6 ;
+	padding: 10px 125px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 0;
+	margin-bottom: 0;
+	font-size: 20px;	
+}
