@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #f5d131;
+    background-color: #FB8500;
 	color: #1D3557;
     padding: 40px;
 	border-bottom: 10px solid #1D3557;
@@ -54,13 +54,13 @@ h1 {
 
 }
 
-img {
+#primary-pet-placeholder-image {
 	float:inline-start;
 	margin-right: 5px;
 }
 
 .pet-story {
-  	color: #1D3557;
+  	color: #212529;
   	margin-left: 20px;
 	padding: 0;
 	font-size: 20px;
@@ -88,6 +88,7 @@ img {
 	box-sizing: border-box;
 
 }
+
 #primary-pet-placeholder-image {
 	width: 400px;
 	height: auto;
@@ -151,10 +152,11 @@ li::before {
 	color: #FFB703;
   }
 
+
  h3 {
 	width: 100%;
 	text-align: center;
-	border-bottom: 1px solid #1D3557;
+	border-bottom: 1px solid #212529;
 	line-height: 0.1em;
 	margin: 10px 0 20px;
  }
@@ -164,19 +166,66 @@ li::before {
 	padding: 0 20px;
  }
 
+ .scroll-container {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.scroll-arrow {
+    font-size: 24px; 
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.scroll-image {
+    display: inline-block;
+	margin-right: 10px;
+    vertical-align: middle;
+}
 
 
 
-.button4 {
-	float:inherit;
-	position:sticky;
-	background-color: #1D3557;
-	opacity: 1;
-	color: #FAF9F6 ;
-	padding: 10px 125px;
+.footer-logo {
 	text-align: center;
-	text-decoration: none;
-	margin-left: 0;
-	margin-bottom: 0;
-	font-size: 20px;	
+	size: 100px;
+	margin: 0;
+}
+
+.motto {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.contact-info {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 1px;
+	padding: 0;
+	line-height: 1.0em;
+	box-sizing: border-box;
+
+}
+
+#button4 {
+	background-color: #FFB703;
+    color: red;
+    padding: 10px 125px;
+    text-decoration: none;
+    font-size: 23px;
+	font-weight: bold;
+	margin: auto;
+    cursor: pointer;
+    display: block;
+	text-align: center;
+}
+
+footer {
+    background-color: #1D3557;
+	color: #FAF9F6;
+    padding: 40px;
+	border-top: 10px solid #FB8500;
+	margin: 0px;
+	overflow: hidden;
 }
