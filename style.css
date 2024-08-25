@@ -5,15 +5,39 @@ body {
 	background-color: #FAF9F6;
 	color: #212529;
 	margin: 0;
-    	padding: 0;
+    padding: 0;
 }
 
 header {
-    	background-color: #FB8500;
-	color: #1D3557
-    	padding: 20px;
-    	border-bottom: 2px solid #1D3557;
+    background-color: #FB8500;
+	color: #1D3557;
+    padding: 40px;
+	border : 5px solid #1D3557;
+	margin: 0px;
+	overflow: hidden;
+}
 
+.header-logo-placeholder-image {
+	height: auto;
+	float: left;
+	margin-right: 5px;
+	border: 5px solid #1D3557;
+}
+
+h1 {
+	position: relative;
+}
+
+button {
+	float: right;
+	position: relative;
+	color: #1D3557;
+	margin-top: 150px;
+}
+
+img {
+	float:inline-start;
+}
 p {
   	color: #1D3557;
   	margin-left: 20px;
@@ -23,7 +47,9 @@ p {
 
 
 h2 {
-	color: #212529
+	
+	color: #212529;
+	
 }
 
 /* Styling for Logo */
@@ -37,15 +63,32 @@ h2 {
 /* Styling for Primary Pet Pic */
 
 .primary-pet-placeholder-image {
-	width: 200px;
-	height: 200px;
-
-
+	width: 400px;
+	height: 400px;
+	margin-left: 200px;
 
 }
 
 
+.heart-icon {
+	size: 5px;
+	color: red;
+	float: left;
+}
 
+ul.no-bullets {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+
+li::before {
+	content: "★ ";
+	color: #FFB703;
+  }
+
+
+  
 
 /* Pseudo Element on Donate Button in Footer */
 
